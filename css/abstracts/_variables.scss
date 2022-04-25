@@ -1,0 +1,27 @@
+:root {
+   --ff-body: 'Lato', sans-serif;
+   --ff-header: 'Montserrat', sans-serif;  
+
+   --fw-normal: 400;
+   --fw-bold: 700;
+   --fw-bolder: 800;
+
+   --fs-body: 1.6rem;   
+   --fs-h1: 2.4rem;
+   --fs-nav-item: .1.8rem;
+   --fs-h3: 1.8rem;
+
+
+   --spacer: 2.2rem;
+   --spacer-md: calc(var(--spacer) * 2);
+   --spacer-lg: calc(var(--spacer) * 3);
+
+   --clr-primary: #ec900f;
+   --clr-secondary: #2c3e50;
+   --clr-accent: #13778d;
+   --clr-white: #fff7ef;
+
+   --shadow: 0 0 1em rgba(0,0,0, .25);
+   --radius: 5px;
+}
+
