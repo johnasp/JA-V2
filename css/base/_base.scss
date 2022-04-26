@@ -27,39 +27,11 @@ body {
    font-family: var(--ff-body);
    font-size: var(--fs-body);
 }
-h1,h2,h3,h4,h5,h6 {
-   font-family: var(--ff-header);
-   font-weight: var(--fw-bold);
-   text-transform: uppercase;
-}
-h1 {
-   font-size: var(--fs-h1);
-}
-h2 {
-   font-size: var(--fz-h2);  
-}
-.navbar { 
-   background: var(--clr-secondary);
-   color: var(--clr-white);
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: var(--spacer);
-   ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      li {
-         font-family: var(--ff-header);
-         font-weight: var(--fw-bold);
-         text-transform: uppercase;
-         font-size: var(--fs-nav-item);
-         margin-right: var(--spacer);
-         &:last-child {
-            margin-right: 0;
-         }
-      }
+.content {
+   padding: 1em;
+   padding-top: 8rem;
+   padding-bottom: 5rem;
+   p {
+      margin-bottom: 1em;
    }
-
 }

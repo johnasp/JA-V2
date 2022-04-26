@@ -6,13 +6,7 @@
    --fw-bold: 700;
    --fw-bolder: 800;
 
-   --fs-body: 1.6rem;   
-   --fs-h1: 2.4rem;
-   --fs-nav-item: .1.8rem;
-   --fs-h3: 1.8rem;
-
-
-   --spacer: 2.2rem;
+   --spacer: 1.6rem;
    --spacer-md: calc(var(--spacer) * 2);
    --spacer-lg: calc(var(--spacer) * 3);
 
@@ -22,6 +16,18 @@
    --clr-white: #fff7ef;
 
    --shadow: 0 0 1em rgba(0,0,0, .25);
-   --radius: 5px;
+   --radius:  5px;
+
+   --fs-body: 1.6rem;   
+   --fs-h1: 2rem;
+   --fs-nav: 1.4rem;
 }
 
+@media (min-width: 800px) {
+   :root {
+      --fs-body: 2rem;   
+      --fs-h1: 3rem;
+      --fs-nav: 1.5rem;
+      --spacer: 3.2rem;
+   }
+}
