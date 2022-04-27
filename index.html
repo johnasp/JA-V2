@@ -4,12 +4,15 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>John Aspinall V2</title>
+   <title>John Aspinall V2 portfolio</title>
    <link rel="stylesheet" type="text/css" href="css/main.css">
+   <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+   <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 </head>
  
 <body>
-   <div class="app">
+   <div class="wrapper">
       <nav class="navbar">
          <header class="navbar__header">
             <h1>John Aspinall</h1>
@@ -18,12 +21,14 @@
             </button>
          </header>
          <ul class="navbar__items">
+            <li id="root"></li>
             <li>Projects</li>
             <li>About</li>
             <li>Blog</li>
             <li>Contact</li>
          </ul> 
       </nav>
+
       <div class="content">
          <p>TOP</p>
          <p>ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
@@ -42,9 +47,11 @@
          <p>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae. Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</p>
          <p>Tenetur quod quidem in voluptatem corporis dolorum dicta sit pariatur porro quaerat autem ipsam odit quam beatae tempora quibusdam illum! Modi velit odio nam nulla unde amet odit pariatur at!</p>
          <p>Consequatur rerum amet fuga expedita sunt et tempora saepe? Iusto nihil explicabo perferendis quos provident delectus ducimus necessitatibus reiciendis optio tempora unde earum doloremque commodi laudantium ad nulla vel odio?</p>
+         <div id="like_button_container"></div>
          <p>BOTTOM</p>
       </div>
    </div>
+   <script src="js/index.js" type="text/babel"></script>
 
 </body>
 </html>
